@@ -15,6 +15,7 @@ public class DockerDemoApplication {
 
 	@GetMapping("/messages")
 	public String getMessage(){
+
 		return "This is docker demo with spring boot";
 	}
 
